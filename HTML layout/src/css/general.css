@@ -1,0 +1,147 @@
+body{
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.h1-text{
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.h2-text{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.h5-text{
+    font-size: 24px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-top{
+    flex-basis: 50%;
+}
+.text-top-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-top{
+    padding: 15% 15% 20% 18%; 
+}
+.button-sign-up{
+    color: black;
+    padding: 3% 25% 3% 25%;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    position: relative;
+    top: 28px;
+    right: 15px;
+    cursor: pointer;
+
+}
+.button-sign-up:hover{
+    background-color: #3a6a5d;
+    color:white
+}
+.image-top{
+    width: 100%;
+    height: 100%;
+}
+.white-text{
+    color: white;
+}
+
+.background-color-top-1{
+    background-color: #0C5041;
+}
+.line-height{
+    line-height: 22px;
+}
+
+.logo{
+    width: 42px;
+    height: 42px;
+    position: relative;
+    top: 8px;
+}
+.text-logo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+    color: white;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.container-title-top{
+    margin-bottom: 22px;
+
+}
+
+.item-section-perks{
+    flex-grow: 1;
+    width: calc(25% - 2em);;
+}
+
+.title-membership-perks{
+    font-weight: 600;
+}
+.container-body{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.item-perks{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.item-perks-title{
+    padding-right: 25%;
+}
+
+.margin-content{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.border-right{
+    border-right: #e3e3e3 solid 2px;
+}
+.width-title{
+    width: 80%;
+}
+.text-container-section-1{
+    padding: 15% 0% 20% 10%; 
+}
+.text-container-section-2{
+    padding: 15% 15% 20% 6%; 
+}
+
+@media (max-width: 768px) {
+    .item-top{
+        flex-basis: 100%;
+    }
+    .item-section-perks{
+        width: calc(50% - 2em);;
+    }
+    .margin-top-perks-mobile{
+        margin-top:10%
+    }
+    .text-container-section-1{
+        padding: 8% 0% 0% 0%;
+    }
+    .text-container-section-2{
+        padding: 0% 8% 5% 5%;
+    }
+    .margin-content-mobile-1{
+        margin-bottom:5%;
+    }
+    .margin-content-mobile-2{
+        margin-top:5%;
+    }
+  }
