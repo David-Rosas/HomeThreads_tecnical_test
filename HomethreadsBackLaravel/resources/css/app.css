@@ -1,0 +1,23 @@
+/* Personalización de estilos de paginación */
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-item {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.page-link {
+    color: #333;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.page-link:hover {
+    background-color: #f0f0f0;
+}
